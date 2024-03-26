@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Details Submitted</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>
+            <!-- comment 
+            <h1>View Customer Details</h1><br>
+            <h2>Details submitted as follows:</h2><br>            
+            
+            <p th:text="'Customer ID:' + ${custid}" />
+             
+            <p th:text="'Customer Name:' +${custname}" />
+            
+            <p th:text="'Customer Email:' +${custemail}" /> 
+            -->
+            <form action="showdetails" method="post">
+                Enter Customer ID:
+                <input type="number" name="custid"><br><br>
+                <input type="submit" value="submit"><br>
+            </form>
+        </div>
+    </body>
+</html>

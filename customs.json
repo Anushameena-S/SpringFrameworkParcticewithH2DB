@@ -1,0 +1,15 @@
+{
+    "elements": {},
+    "attributes": {
+        "th:text": {},
+        "th:object": {
+            "context": "p"
+        },
+        "th:each": {
+            "context": "tr"
+        },
+        "th:utext": {
+            "context": "span"
+        }
+    }
+}
